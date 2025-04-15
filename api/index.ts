@@ -18,7 +18,7 @@ app.get("/", (c) => {
 
 app.get("/:language/cards", async (c) => {
   const paramSchema = z.object({ language: languageSchema });
-  const { data: param, error: paramError } = await tryCatch(
+  const [param, paramError] = await tryCatch(
     paramSchema.parseAsync(c.req.param())
   );
   if (paramError) return c.json({ error: paramError.message }, 400);
@@ -27,7 +27,7 @@ app.get("/:language/cards", async (c) => {
     page: z.coerce.number().min(1).max(1000).default(1),
     limit: z.coerce.number().min(1).max(50).default(50),
   });
-  const { data: query, error: queryError } = await tryCatch(
+  const [query, queryError] = await tryCatch(
     querySchema.parseAsync(c.req.query())
   );
   if (queryError) return c.json({ error: queryError.message }, 400);
@@ -43,7 +43,7 @@ app.get("/:language/cards", async (c) => {
 
 app.get("/:language/cards/search", async (c) => {
   const paramSchema = z.object({ language: languageSchema });
-  const { data: param, error: paramError } = await tryCatch(
+  const [param, paramError] = await tryCatch(
     paramSchema.parseAsync(c.req.param())
   );
   if (paramError) return c.json({ error: paramError.message }, 400);
@@ -53,7 +53,7 @@ app.get("/:language/cards/search", async (c) => {
     page: z.coerce.number().min(1).max(1000).default(1),
     limit: z.coerce.number().min(1).max(50).default(50),
   });
-  const { data: query, error: queryError } = await tryCatch(
+  const [query, queryError] = await tryCatch(
     querySchema.parseAsync(c.req.query())
   );
   if (queryError) return c.json({ error: queryError.message }, 400);
@@ -80,7 +80,7 @@ app.get("/:language/cards/:id", async (c) => {
     language: languageSchema,
     id: z.coerce.number().min(1),
   });
-  const { data: param, error: paramError } = await tryCatch(
+  const [param, paramError] = await tryCatch(
     paramSchema.parseAsync(c.req.param())
   );
   if (paramError) return c.json({ error: paramError.message }, 400);

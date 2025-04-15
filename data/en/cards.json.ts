@@ -1,6 +1,7 @@
-import { CardArray, cardArraySchema } from "../../utils/card.schema";
+import { z } from "zod";
+import { Card, cardSchema } from "../../schemas/card.schema";
 
-const cards: CardArray = [
+export const cards: Card[] = [
   {
     artist: "Slawomir Maniak",
     color: ["Body"],
@@ -113,5 +114,4 @@ const cards: CardArray = [
   },
 ];
 
-cardArraySchema.parse(cards);
-export default cards;
+z.array(cardSchema).parse(cards);

@@ -1,6 +1,10 @@
 import { Hono } from "hono";
 import { handle } from "hono/vercel";
-import cards from "../data/en/cards.json";
+import { data } from "../data";
+import { getPaginatedData } from "../utils/getPaginatedData";
+import { languageSchema } from "../schemas/enum.schema";
+import { z } from "zod";
+import { tryCatch } from "../utils/tryCatch";
 
 export const config = {
   runtime: "edge",
@@ -12,49 +16,77 @@ app.get("/", (c) => {
   return c.json({ message: "Hello Hono!" });
 });
 
-app.get("/cards", async (c) => {
-  const { page = 1, limit = 10 } = c.req.query();
-  const pageNumber = parseInt(page as string, 10);
-  const limitNumber = parseInt(limit as string, 10);
-  const start = (pageNumber - 1) * limitNumber;
-  const end = start + limitNumber;
-  const paginatedCards = cards.slice(start, end);
-  return c.json({
-    cards: paginatedCards,
-    total: cards.length,
-    page: pageNumber,
-    limit: limitNumber,
-  });
-});
-
-app.get("/cards/search", async (c) => {
-  const { q, page = 1, limit = 10 } = c.req.query();
-  const pageNumber = parseInt(page as string, 10);
-  const limitNumber = parseInt(limit as string, 10);
-  const start = (pageNumber - 1) * limitNumber;
-  const end = start + limitNumber;
-  const searchResults = cards.filter(
-    (card) =>
-      card.name.toLowerCase().includes((q as string).toLowerCase()) ||
-      card.flavorText.toLowerCase().includes((q as string).toLowerCase()) ||
-      card.text.toLowerCase().includes((q as string).toLowerCase()) ||
-      card.typeLine.toLowerCase().includes((q as string).toLowerCase())
+app.get("/:language/cards", async (c) => {
+  const paramSchema = z.object({ language: languageSchema });
+  const { data: param, error: paramError } = await tryCatch(
+    paramSchema.parseAsync(c.req.param())
   );
-  const paginatedCards = searchResults.slice(start, end);
-  return c.json({
-    cards: paginatedCards,
-    total: searchResults.length,
-    page: pageNumber,
-    limit: limitNumber,
+  if (paramError) return c.json({ error: paramError.message }, 400);
+
+  const querySchema = z.object({
+    page: z.coerce.number().min(1).max(1000).default(1),
+    limit: z.coerce.number().min(1).max(50).default(50),
   });
+  const { data: query, error: queryError } = await tryCatch(
+    querySchema.parseAsync(c.req.query())
+  );
+  if (queryError) return c.json({ error: queryError.message }, 400);
+
+  return c.json(
+    getPaginatedData(data[param.language].cards, {
+      page: query.page,
+      limit: query.limit,
+      language: param.language,
+    })
+  );
 });
 
-app.get("/cards/:id", async (c) => {
-  const { id } = c.req.param();
-  const card = cards.find((card) => card.id === parseInt(id as string, 10));
-  if (!card) {
-    return c.notFound();
-  }
+app.get("/:language/cards/search", async (c) => {
+  const paramSchema = z.object({ language: languageSchema });
+  const { data: param, error: paramError } = await tryCatch(
+    paramSchema.parseAsync(c.req.param())
+  );
+  if (paramError) return c.json({ error: paramError.message }, 400);
+
+  const querySchema = z.object({
+    q: z.string().min(1),
+    page: z.coerce.number().min(1).max(1000).default(1),
+    limit: z.coerce.number().min(1).max(50).default(50),
+  });
+  const { data: query, error: queryError } = await tryCatch(
+    querySchema.parseAsync(c.req.query())
+  );
+  if (queryError) return c.json({ error: queryError.message }, 400);
+
+  const searchResults = data[param.language].cards.filter(
+    (card) =>
+      card.name.toLowerCase().includes(query.q.toLowerCase()) ||
+      card.flavorText.toLowerCase().includes(query.q.toLowerCase()) ||
+      card.text.toLowerCase().includes(query.q.toLowerCase()) ||
+      card.typeLine.toLowerCase().includes(query.q.toLowerCase())
+  );
+
+  return c.json(
+    getPaginatedData(searchResults, {
+      page: query.page,
+      limit: query.limit,
+      language: param.language,
+    })
+  );
+});
+
+app.get("/:language/cards/:id", async (c) => {
+  const paramSchema = z.object({
+    language: languageSchema,
+    id: z.coerce.number().min(1),
+  });
+  const { data: param, error: paramError } = await tryCatch(
+    paramSchema.parseAsync(c.req.param())
+  );
+  if (paramError) return c.json({ error: paramError.message }, 400);
+
+  const card = data[param.language].cards.find((card) => card.id === param.id);
+  if (!card) return c.notFound();
   return c.json(card);
 });
 

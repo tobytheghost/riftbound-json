@@ -1,8 +1,8 @@
-import { data } from "@/data";
-import { languageSchema } from "@/schemas/enum.schema";
-import { setSchema } from "@/schemas/set.schema";
-import { getPaginatedData } from "@/utils/getPaginatedData";
-import { tryCatch } from "@/utils/tryCatch";
+import { data } from "../data";
+import { languageSchema } from "../schemas/enum.schema";
+import { setSchema } from "../schemas/set.schema";
+import { getPaginatedData } from "../utils/getPaginatedData";
+import { tryCatch } from "../utils/tryCatch";
 import { createRoute, OpenAPIHono, z } from "@hono/zod-openapi";
 
 const app = new OpenAPIHono();

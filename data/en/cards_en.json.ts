@@ -1,4 +1,4 @@
-import { Card } from "@/schemas/card.schema";
+import { Card } from "../../schemas/card.schema";
 
 const cards: Card[] = [
   {

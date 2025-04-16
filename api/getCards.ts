@@ -1,8 +1,8 @@
-import { data } from "@/data";
-import { cardSchema } from "@/schemas/card.schema";
-import { languageSchema } from "@/schemas/enum.schema";
-import { getPaginatedData } from "@/utils/getPaginatedData";
-import { tryCatch } from "@/utils/tryCatch";
+import { data } from "../data";
+import { cardSchema } from "../schemas/card.schema";
+import { languageSchema } from "../schemas/enum.schema";
+import { getPaginatedData } from "../utils/getPaginatedData";
+import { tryCatch } from "../utils/tryCatch";
 import { OpenAPIHono, createRoute } from "@hono/zod-openapi";
 import { z } from "zod";
 

@@ -1,4 +1,4 @@
-import { Language } from "@/schemas/enum.schema";
+import { Language } from "../schemas/enum.schema";
 
 export const getPaginatedData = <TArray extends unknown[]>(
   dataArray: TArray,

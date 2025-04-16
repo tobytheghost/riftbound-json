@@ -1,4 +1,4 @@
-import { Set } from "@/schemas/set.schema";
+import { Set } from "../../schemas/set.schema";
 
 const set: Set[] = [
   {

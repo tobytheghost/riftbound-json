@@ -1,7 +1,7 @@
-import { data } from "@/data";
-import { cardSchema } from "@/schemas/card.schema";
-import { languageSchema } from "@/schemas/enum.schema";
-import { tryCatch } from "@/utils/tryCatch";
+import { data } from "../data";
+import { cardSchema } from "../schemas/card.schema";
+import { languageSchema } from "../schemas/enum.schema";
+import { tryCatch } from "../utils/tryCatch";
 import { createRoute, OpenAPIHono, z } from "@hono/zod-openapi";
 
 const app = new OpenAPIHono();

@@ -1,7 +1,6 @@
-import { z } from "zod";
-import { Card, cardSchema } from "../../schemas/card.schema";
+import { Card } from "@/schemas/card.schema";
 
-export const cards: Card[] = [
+export default [
   {
     artist: "Slawomir Maniak",
     color: ["Body"],
@@ -112,6 +111,4 @@ export const cards: Card[] = [
     type: "Legend",
     typeLine: "Legend • Viktor",
   },
-];
-
-z.array(cardSchema).parse(cards);
+] satisfies Card[];

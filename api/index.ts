@@ -19,7 +19,7 @@ app.get("/", (c) => {
 app.get("/:language/cards", async (c) => {
   const paramSchema = z.object({ language: languageSchema });
   const [param, paramError] = await tryCatch(
-    paramSchema.parseAsync(c.req.param())
+    paramSchema.parseAsync(c.req.param()),
   );
   if (paramError) return c.json({ error: paramError.message }, 400);
 
@@ -28,7 +28,7 @@ app.get("/:language/cards", async (c) => {
     limit: z.coerce.number().min(1).max(50).default(50),
   });
   const [query, queryError] = await tryCatch(
-    querySchema.parseAsync(c.req.query())
+    querySchema.parseAsync(c.req.query()),
   );
   if (queryError) return c.json({ error: queryError.message }, 400);
 
@@ -37,14 +37,14 @@ app.get("/:language/cards", async (c) => {
       page: query.page,
       limit: query.limit,
       language: param.language,
-    })
+    }),
   );
 });
 
 app.get("/:language/cards/search", async (c) => {
   const paramSchema = z.object({ language: languageSchema });
   const [param, paramError] = await tryCatch(
-    paramSchema.parseAsync(c.req.param())
+    paramSchema.parseAsync(c.req.param()),
   );
   if (paramError) return c.json({ error: paramError.message }, 400);
 
@@ -54,7 +54,7 @@ app.get("/:language/cards/search", async (c) => {
     limit: z.coerce.number().min(1).max(50).default(50),
   });
   const [query, queryError] = await tryCatch(
-    querySchema.parseAsync(c.req.query())
+    querySchema.parseAsync(c.req.query()),
   );
   if (queryError) return c.json({ error: queryError.message }, 400);
 
@@ -63,7 +63,7 @@ app.get("/:language/cards/search", async (c) => {
       card.name.toLowerCase().includes(query.q.toLowerCase()) ||
       card.flavorText.toLowerCase().includes(query.q.toLowerCase()) ||
       card.text.toLowerCase().includes(query.q.toLowerCase()) ||
-      card.typeLine.toLowerCase().includes(query.q.toLowerCase())
+      card.typeLine.toLowerCase().includes(query.q.toLowerCase()),
   );
 
   return c.json(
@@ -71,7 +71,7 @@ app.get("/:language/cards/search", async (c) => {
       page: query.page,
       limit: query.limit,
       language: param.language,
-    })
+    }),
   );
 });
 
@@ -81,7 +81,7 @@ app.get("/:language/cards/:id", async (c) => {
     id: z.coerce.number().min(1),
   });
   const [param, paramError] = await tryCatch(
-    paramSchema.parseAsync(c.req.param())
+    paramSchema.parseAsync(c.req.param()),
   );
   if (paramError) return c.json({ error: paramError.message }, 400);
 

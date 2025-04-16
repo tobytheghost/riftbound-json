@@ -1,6 +1,6 @@
 export const getPaginatedData = <TArray extends unknown[]>(
   dataArray: TArray,
-  options: { page: number; limit: number; language: string }
+  options: { page: number; limit: number; language: string },
 ) => {
   const { page, limit } = options;
   const start = (page - 1) * limit;

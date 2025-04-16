@@ -9,8 +9,6 @@
     "lint": "eslint --fix ."
   },
   "dependencies": {
-    "@hono/swagger-ui": "^0.5.1",
-    "@hono/zod-openapi": "^0.19.4",
     "hono": "^4.7.6",
     "typescript": "^5.8.3",
     "zod": "^3.24.2"

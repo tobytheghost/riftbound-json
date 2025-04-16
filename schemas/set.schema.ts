@@ -1,4 +1,4 @@
-import { z } from "@hono/zod-openapi";
+import { z } from "zod";
 import { setCodeSchema } from "./enum.schema";
 
 export type Set = z.infer<typeof setSchema>;

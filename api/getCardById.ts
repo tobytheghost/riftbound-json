@@ -15,7 +15,7 @@ app.openapi(
   createRoute({
     tags: ["Cards"],
     method: "get",
-    path: "/api/{language}/cards/{id}",
+    path: "/{language}/cards/{id}",
     summary: "Get card by ID",
     description: "Get card by card ID",
     request: {

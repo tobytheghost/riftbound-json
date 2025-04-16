@@ -17,7 +17,7 @@ app.openapi(
   createRoute({
     tags: ["Sets"],
     method: "get",
-    path: "/api/{language}/sets",
+    path: "/{language}/sets",
     summary: "Get sets",
     description: "Get sets by language",
     request: {

@@ -19,7 +19,7 @@ app.openapi(
   createRoute({
     tags: ["Cards"],
     method: "get",
-    path: "/api/{language}/cards",
+    path: "/{language}/cards",
     summary: "Get cards",
     description: "Get cards by language",
     request: {

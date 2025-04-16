@@ -19,7 +19,7 @@ app.route("/", getSets);
 app.route("/", getSetBySetCode);
 
 app.get(
-  "/ui",
+  "/",
   swaggerUI({
     url: "/doc",
   }),

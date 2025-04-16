@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { z } from "@hono/zod-openapi";
 import { Card, cardSchema } from "../schemas/card.schema";
 import { Language } from "../schemas/enum.schema";
 import { Set, setSchema } from "../schemas/set.schema";

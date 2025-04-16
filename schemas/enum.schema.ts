@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { z } from "@hono/zod-openapi";
 
 export type Color = z.infer<typeof colorSchema>;
 export type FoilType = z.infer<typeof foilTypeSchema>;

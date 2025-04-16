@@ -1,6 +1,6 @@
 import { Card } from "@/schemas/card.schema";
 
-export default [
+const cards: Card[] = [
   {
     artist: "Slawomir Maniak",
     color: ["Body"],
@@ -111,4 +111,6 @@ export default [
     type: "Legend",
     typeLine: "Legend • Viktor",
   },
-] satisfies Card[];
+];
+
+export default cards;

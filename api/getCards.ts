@@ -5,38 +5,50 @@ import { data } from "../data";
 import { languageSchema } from "../schemas/enum.schema";
 import { getPaginatedData } from "../utils/getPaginatedData";
 import { tryCatch } from "../utils/tryCatch";
+import { Card } from "../schemas/card.schema";
 
 const app = new Hono();
 
 const paramSchema = z.object({ language: languageSchema });
 const querySchema = z.object({
-  q: z.string().min(1).optional(),
+  search: z.string().min(1).optional(),
   page: z.coerce.number().min(1).max(1000).default(1),
   limit: z.coerce.number().min(1).max(50).default(50),
+  id: z.string().optional(),
 });
 
-app.get("/{language}/cards", async (c) => {
+app.get("/:language/cards", async (c) => {
   const [param, paramError] = await tryCatch(
     paramSchema.parseAsync(c.req.param()),
   );
   if (paramError) return c.json({ error: paramError.message }, 400);
+
+  console.log(c.req.query());
 
   const [query, queryError] = await tryCatch(
     querySchema.parseAsync(c.req.query()),
   );
   if (queryError) return c.json({ error: queryError.message }, 400);
 
-  const { q } = query;
+  const { search, id } = query;
 
-  const queriedCards = q
-    ? data[param.language].cards.filter(
-        (card) =>
-          card.name.toLowerCase().includes(q.toLowerCase()) ||
-          card.flavorText.toLowerCase().includes(q.toLowerCase()) ||
-          card.text.toLowerCase().includes(q.toLowerCase()) ||
-          card.typeLine.toLowerCase().includes(q.toLowerCase()),
-      )
-    : data[param.language].cards;
+  const ids = id?.split(",").map((id) => parseInt(id, 10)) ?? [];
+
+  const matchesSearchConditions = (card: Card, search: string) =>
+    card.name.toLowerCase().includes(search.toLowerCase()) ||
+    card.flavorText.toLowerCase().includes(search.toLowerCase()) ||
+    card.text.toLowerCase().includes(search.toLowerCase()) ||
+    card.typeLine.toLowerCase().includes(search.toLowerCase());
+
+  const queriedCards = data[param.language].cards.filter((card) => {
+    if (ids.length && !ids.includes(card.id)) {
+      return false;
+    }
+    if (search && !matchesSearchConditions(card, search)) {
+      return false;
+    }
+    return true;
+  });
 
   const paginatedData = getPaginatedData(queriedCards, {
     page: query.page,

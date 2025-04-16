@@ -12,7 +12,7 @@ const paramSchema = z.object({
   setCode: setCodeSchema,
 });
 
-app.get("/{language}/sets/{setCode}", async (c) => {
+app.get("/:language/sets/:setCode", async (c) => {
   const [param, paramError] = await tryCatch(
     paramSchema.parseAsync(c.req.param()),
   );

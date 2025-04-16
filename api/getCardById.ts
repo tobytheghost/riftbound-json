@@ -12,7 +12,7 @@ const paramSchema = z.object({
   id: z.coerce.number().min(1),
 });
 
-app.get("/{language}/cards/{id}", async (c) => {
+app.get("/:language/cards/:id", async (c) => {
   const [param, paramError] = await tryCatch(
     paramSchema.parseAsync(c.req.param()),
   );

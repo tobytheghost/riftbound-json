@@ -77,7 +77,7 @@ export const cards: CardData[] = [
         foilTypes: ["None"],
         fullIdentifier: "OGN • 252/298",
         images: {
-          full: "https://drive.usercontent.google.com/download?id=1pDKK_Xns7AM5xLSFZOYbP_IxwHKd4Htahttps://drive.usercontent.google.com/download?id=1pDKK_Xns7AM5xLSFZOYbP_IxwHKd4Hta",
+          full: "https://drive.usercontent.google.com/download?id=1pDKK_Xns7AM5xLSFZOYbP_IxwHKd4Hta",
           thumbnail:
             "https://drive.google.com/thumbnail?id=1pDKK_Xns7AM5xLSFZOYbP_IxwHKd4Hta",
         },
@@ -107,7 +107,7 @@ export const cards: CardData[] = [
         foilTypes: ["None"],
         fullIdentifier: "OGN • 265/298",
         images: {
-          full: "https://drive.usercontent.google.com/download?id=125ETiJrekeRelRdBpT_gye1-C90vkufMhttps://drive.usercontent.google.com/download?id=125ETiJrekeRelRdBpT_gye1-C90vkufM",
+          full: "https://drive.usercontent.google.com/download?id=125ETiJrekeRelRdBpT_gye1-C90vkufM",
           thumbnail:
             "https://drive.google.com/thumbnail?id=125ETiJrekeRelRdBpT_gye1-C90vkufM",
         },
@@ -1496,6 +1496,1108 @@ export const cards: CardData[] = [
           full: "https://drive.usercontent.google.com/download?id=1b8yptMYYWhympY4x3XZZQKN91QrRBvj_",
           thumbnail:
             "https://drive.google.com/thumbnail?id=1b8yptMYYWhympY4x3XZZQKN91QrRBvj_",
+        },
+        number: 0,
+        type: "Battlefield",
+        set: "OGN",
+        artist: "",
+        color: [],
+        externalLinks: {},
+        flavorText: "",
+        foilTypes: [],
+        fullIdentifier: "",
+        keywords: [],
+        language: "en",
+        name: "",
+        rarity: "Common",
+        subtypes: [],
+        superTypes: [],
+        text: "",
+      },
+    ],
+  },
+
+  {
+    id: 0,
+    variations: [
+      {
+        images: {
+          full: "https://drive.usercontent.google.com/download?id=13wprX5mpdlImJmlP0OVKJwlNcyCjKPl4",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=13wprX5mpdlImJmlP0OVKJwlNcyCjKPl4",
+        },
+        number: 0,
+        type: "Battlefield",
+        set: "OGN",
+        artist: "",
+        color: [],
+        externalLinks: {},
+        flavorText: "",
+        foilTypes: [],
+        fullIdentifier: "",
+        keywords: [],
+        language: "en",
+        name: "",
+        rarity: "Common",
+        subtypes: [],
+        superTypes: [],
+        text: "",
+      },
+    ],
+  },
+
+  {
+    id: 0,
+    variations: [
+      {
+        images: {
+          full: "https://drive.usercontent.google.com/download?id=1b8yptMYYWhympY4x3XZZQKN91QrRBvj_",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=1b8yptMYYWhympY4x3XZZQKN91QrRBvj_",
+        },
+        number: 0,
+        type: "Battlefield",
+        set: "OGN",
+        artist: "",
+        color: [],
+        externalLinks: {},
+        flavorText: "",
+        foilTypes: [],
+        fullIdentifier: "",
+        keywords: [],
+        language: "en",
+        name: "",
+        rarity: "Common",
+        subtypes: [],
+        superTypes: [],
+        text: "",
+      },
+    ],
+  },
+
+  {
+    id: 0,
+    variations: [
+      {
+        images: {
+          full: "https://drive.usercontent.google.com/download?id=1gVXqRGWAYdMEoExgF5QLKKBMzmN1Ls3P",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=1gVXqRGWAYdMEoExgF5QLKKBMzmN1Ls3P",
+        },
+        number: 0,
+        type: "Battlefield",
+        set: "OGN",
+        artist: "",
+        color: [],
+        externalLinks: {},
+        flavorText: "",
+        foilTypes: [],
+        fullIdentifier: "",
+        keywords: [],
+        language: "en",
+        name: "",
+        rarity: "Common",
+        subtypes: [],
+        superTypes: [],
+        text: "",
+      },
+    ],
+  },
+
+  {
+    id: 0,
+    variations: [
+      {
+        images: {
+          full: "https://drive.usercontent.google.com/download?id=1q7AijstnHRQh5SWORZZurU93-qmUTj2p",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=1q7AijstnHRQh5SWORZZurU93-qmUTj2p",
+        },
+        number: 0,
+        type: "Battlefield",
+        set: "OGN",
+        artist: "",
+        color: [],
+        externalLinks: {},
+        flavorText: "",
+        foilTypes: [],
+        fullIdentifier: "",
+        keywords: [],
+        language: "en",
+        name: "",
+        rarity: "Common",
+        subtypes: [],
+        superTypes: [],
+        text: "",
+      },
+    ],
+  },
+
+  {
+    id: 0,
+    variations: [
+      {
+        images: {
+          full: "https://drive.usercontent.google.com/download?id=1n5-OOXbda8QVuKcvmJq94gZrCpzOz5kN",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=1n5-OOXbda8QVuKcvmJq94gZrCpzOz5kN",
+        },
+        number: 0,
+        type: "Battlefield",
+        set: "OGN",
+        artist: "",
+        color: [],
+        externalLinks: {},
+        flavorText: "",
+        foilTypes: [],
+        fullIdentifier: "",
+        keywords: [],
+        language: "en",
+        name: "",
+        rarity: "Common",
+        subtypes: [],
+        superTypes: [],
+        text: "",
+      },
+    ],
+  },
+
+  {
+    id: 0,
+    variations: [
+      {
+        images: {
+          full: "https://drive.usercontent.google.com/download?id=1N4lx3OvEZFUaxQIQQHXVoGYOVEc9gbWs",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=1N4lx3OvEZFUaxQIQQHXVoGYOVEc9gbWs",
+        },
+        number: 0,
+        type: "Battlefield",
+        set: "OGN",
+        artist: "",
+        color: [],
+        externalLinks: {},
+        flavorText: "",
+        foilTypes: [],
+        fullIdentifier: "",
+        keywords: [],
+        language: "en",
+        name: "",
+        rarity: "Common",
+        subtypes: [],
+        superTypes: [],
+        text: "",
+      },
+    ],
+  },
+
+  {
+    id: 0,
+    variations: [
+      {
+        images: {
+          full: "https://drive.usercontent.google.com/download?id=1Pi0mlXAi5U_IUdvWuszWFEmJnp61xK7f",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=1Pi0mlXAi5U_IUdvWuszWFEmJnp61xK7f",
+        },
+        number: 0,
+        type: "Battlefield",
+        set: "OGN",
+        artist: "",
+        color: [],
+        externalLinks: {},
+        flavorText: "",
+        foilTypes: [],
+        fullIdentifier: "",
+        keywords: [],
+        language: "en",
+        name: "",
+        rarity: "Common",
+        subtypes: [],
+        superTypes: [],
+        text: "",
+      },
+    ],
+  },
+
+  {
+    id: 0,
+    variations: [
+      {
+        images: {
+          full: "https://drive.usercontent.google.com/download?id=1zVMLjQWshOnVMIn8KbQpykvHv_ARylb9",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=1zVMLjQWshOnVMIn8KbQpykvHv_ARylb9",
+        },
+        number: 0,
+        type: "Battlefield",
+        set: "OGN",
+        artist: "",
+        color: [],
+        externalLinks: {},
+        flavorText: "",
+        foilTypes: [],
+        fullIdentifier: "",
+        keywords: [],
+        language: "en",
+        name: "",
+        rarity: "Common",
+        subtypes: [],
+        superTypes: [],
+        text: "",
+      },
+    ],
+  },
+
+  {
+    id: 0,
+    variations: [
+      {
+        images: {
+          full: "https://drive.usercontent.google.com/download?id=1-EFC3jhYHkh4F7xfoA1ysL2xlfbgf1Dy",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=1-EFC3jhYHkh4F7xfoA1ysL2xlfbgf1Dy",
+        },
+        number: 0,
+        type: "Battlefield",
+        set: "OGN",
+        artist: "",
+        color: [],
+        externalLinks: {},
+        flavorText: "",
+        foilTypes: [],
+        fullIdentifier: "",
+        keywords: [],
+        language: "en",
+        name: "",
+        rarity: "Common",
+        subtypes: [],
+        superTypes: [],
+        text: "",
+      },
+    ],
+  },
+
+  {
+    id: 0,
+    variations: [
+      {
+        images: {
+          full: "https://drive.usercontent.google.com/download?id=1zEsCswACq_BA46FWs4xTsIBSEtkgsCqn",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=1zEsCswACq_BA46FWs4xTsIBSEtkgsCqn",
+        },
+        number: 0,
+        type: "Battlefield",
+        set: "OGN",
+        artist: "",
+        color: [],
+        externalLinks: {},
+        flavorText: "",
+        foilTypes: [],
+        fullIdentifier: "",
+        keywords: [],
+        language: "en",
+        name: "",
+        rarity: "Common",
+        subtypes: [],
+        superTypes: [],
+        text: "",
+      },
+    ],
+  },
+
+  {
+    id: 0,
+    variations: [
+      {
+        images: {
+          full: "https://drive.usercontent.google.com/download?id=1wWVL0Uf9vxGcPnWu5zwDyMUhRIidkNVZ",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=1wWVL0Uf9vxGcPnWu5zwDyMUhRIidkNVZ",
+        },
+        number: 0,
+        type: "Battlefield",
+        set: "OGN",
+        artist: "",
+        color: [],
+        externalLinks: {},
+        flavorText: "",
+        foilTypes: [],
+        fullIdentifier: "",
+        keywords: [],
+        language: "en",
+        name: "",
+        rarity: "Common",
+        subtypes: [],
+        superTypes: [],
+        text: "",
+      },
+    ],
+  },
+
+  {
+    id: 0,
+    variations: [
+      {
+        images: {
+          full: "https://drive.usercontent.google.com/download?id=1ILV54OPVZRe86iAaTtQf3ugShWkVUizH",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=1ILV54OPVZRe86iAaTtQf3ugShWkVUizH",
+        },
+        number: 0,
+        type: "Battlefield",
+        set: "OGN",
+        artist: "",
+        color: [],
+        externalLinks: {},
+        flavorText: "",
+        foilTypes: [],
+        fullIdentifier: "",
+        keywords: [],
+        language: "en",
+        name: "",
+        rarity: "Common",
+        subtypes: [],
+        superTypes: [],
+        text: "",
+      },
+    ],
+  },
+
+  {
+    id: 0,
+    variations: [
+      {
+        images: {
+          full: "https://drive.usercontent.google.com/download?id=1_yl3Wj5BQD-L-eUPtMwJiY3JUHPv-xLy",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=1_yl3Wj5BQD-L-eUPtMwJiY3JUHPv-xLy",
+        },
+        number: 0,
+        type: "Battlefield",
+        set: "OGN",
+        artist: "",
+        color: [],
+        externalLinks: {},
+        flavorText: "",
+        foilTypes: [],
+        fullIdentifier: "",
+        keywords: [],
+        language: "en",
+        name: "",
+        rarity: "Common",
+        subtypes: [],
+        superTypes: [],
+        text: "",
+      },
+    ],
+  },
+
+  {
+    id: 0,
+    variations: [
+      {
+        images: {
+          full: "https://drive.usercontent.google.com/download?id=1yU5VU6doFpc6AKJa8pJL7qnLsck53bxd",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=1yU5VU6doFpc6AKJa8pJL7qnLsck53bxd",
+        },
+        number: 0,
+        type: "Battlefield",
+        set: "OGN",
+        artist: "",
+        color: [],
+        externalLinks: {},
+        flavorText: "",
+        foilTypes: [],
+        fullIdentifier: "",
+        keywords: [],
+        language: "en",
+        name: "",
+        rarity: "Common",
+        subtypes: [],
+        superTypes: [],
+        text: "",
+      },
+    ],
+  },
+
+  {
+    id: 0,
+    variations: [
+      {
+        images: {
+          full: "https://drive.usercontent.google.com/download?id=1G_d0bET3b_5dKntegsxrWQgrUQww8vQ_",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=1G_d0bET3b_5dKntegsxrWQgrUQww8vQ_",
+        },
+        number: 0,
+        type: "Battlefield",
+        set: "OGN",
+        artist: "",
+        color: [],
+        externalLinks: {},
+        flavorText: "",
+        foilTypes: [],
+        fullIdentifier: "",
+        keywords: [],
+        language: "en",
+        name: "",
+        rarity: "Common",
+        subtypes: [],
+        superTypes: [],
+        text: "",
+      },
+    ],
+  },
+
+  {
+    id: 0,
+    variations: [
+      {
+        images: {
+          full: "https://drive.usercontent.google.com/download?id=1sN6GB0I6iNXkyxIIdHeTCceAPsuOQO4J",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=1sN6GB0I6iNXkyxIIdHeTCceAPsuOQO4J",
+        },
+        number: 0,
+        type: "Battlefield",
+        set: "OGN",
+        artist: "",
+        color: [],
+        externalLinks: {},
+        flavorText: "",
+        foilTypes: [],
+        fullIdentifier: "",
+        keywords: [],
+        language: "en",
+        name: "",
+        rarity: "Common",
+        subtypes: [],
+        superTypes: [],
+        text: "",
+      },
+    ],
+  },
+
+  {
+    id: 0,
+    variations: [
+      {
+        images: {
+          full: "https://drive.usercontent.google.com/download?id=15MXmW7ME0YYD4O7vyuXG3TmR6xm15KY6",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=15MXmW7ME0YYD4O7vyuXG3TmR6xm15KY6",
+        },
+        number: 0,
+        type: "Battlefield",
+        set: "OGN",
+        artist: "",
+        color: [],
+        externalLinks: {},
+        flavorText: "",
+        foilTypes: [],
+        fullIdentifier: "",
+        keywords: [],
+        language: "en",
+        name: "",
+        rarity: "Common",
+        subtypes: [],
+        superTypes: [],
+        text: "",
+      },
+    ],
+  },
+
+  {
+    id: 0,
+    variations: [
+      {
+        images: {
+          full: "https://drive.usercontent.google.com/download?id=14YLX-zOnk832lkYtodcPEY21xPI4rdSj",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=14YLX-zOnk832lkYtodcPEY21xPI4rdSj",
+        },
+        number: 0,
+        type: "Battlefield",
+        set: "OGN",
+        artist: "",
+        color: [],
+        externalLinks: {},
+        flavorText: "",
+        foilTypes: [],
+        fullIdentifier: "",
+        keywords: [],
+        language: "en",
+        name: "",
+        rarity: "Common",
+        subtypes: [],
+        superTypes: [],
+        text: "",
+      },
+    ],
+  },
+
+  {
+    id: 0,
+    variations: [
+      {
+        images: {
+          full: "https://drive.usercontent.google.com/download?id=1wlx71_cDFKsEHRBcpdrL7r3CnDNyC4xf",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=1wlx71_cDFKsEHRBcpdrL7r3CnDNyC4xf",
+        },
+        number: 0,
+        type: "Battlefield",
+        set: "OGN",
+        artist: "",
+        color: [],
+        externalLinks: {},
+        flavorText: "",
+        foilTypes: [],
+        fullIdentifier: "",
+        keywords: [],
+        language: "en",
+        name: "",
+        rarity: "Common",
+        subtypes: [],
+        superTypes: [],
+        text: "",
+      },
+    ],
+  },
+
+  {
+    id: 0,
+    variations: [
+      {
+        images: {
+          full: "https://drive.usercontent.google.com/download?id=1VQz-LD6WFFRL24IbfdLhlLlCYvgYiDlb",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=1VQz-LD6WFFRL24IbfdLhlLlCYvgYiDlb",
+        },
+        number: 0,
+        type: "Battlefield",
+        set: "OGN",
+        artist: "",
+        color: [],
+        externalLinks: {},
+        flavorText: "",
+        foilTypes: [],
+        fullIdentifier: "",
+        keywords: [],
+        language: "en",
+        name: "",
+        rarity: "Common",
+        subtypes: [],
+        superTypes: [],
+        text: "",
+      },
+    ],
+  },
+
+  {
+    id: 0,
+    variations: [
+      {
+        images: {
+          full: "https://drive.usercontent.google.com/download?id=1sbN0hl91CrULvSDjnYism4jpNVacA1yU",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=1sbN0hl91CrULvSDjnYism4jpNVacA1yU",
+        },
+        number: 0,
+        type: "Battlefield",
+        set: "OGN",
+        artist: "",
+        color: [],
+        externalLinks: {},
+        flavorText: "",
+        foilTypes: [],
+        fullIdentifier: "",
+        keywords: [],
+        language: "en",
+        name: "",
+        rarity: "Common",
+        subtypes: [],
+        superTypes: [],
+        text: "",
+      },
+    ],
+  },
+
+  {
+    id: 0,
+    variations: [
+      {
+        images: {
+          full: "https://drive.usercontent.google.com/download?id=1oEIkBa410JWolMFjonYOHIeFJ8ETf5Xm",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=1oEIkBa410JWolMFjonYOHIeFJ8ETf5Xm",
+        },
+        number: 0,
+        type: "Battlefield",
+        set: "OGN",
+        artist: "",
+        color: [],
+        externalLinks: {},
+        flavorText: "",
+        foilTypes: [],
+        fullIdentifier: "",
+        keywords: [],
+        language: "en",
+        name: "",
+        rarity: "Common",
+        subtypes: [],
+        superTypes: [],
+        text: "",
+      },
+    ],
+  },
+
+  {
+    id: 0,
+    variations: [
+      {
+        images: {
+          full: "https://drive.usercontent.google.com/download?id=1HFhzlsZKwmCfJybswWHCReI5bgJlFJyw",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=1HFhzlsZKwmCfJybswWHCReI5bgJlFJyw",
+        },
+        number: 0,
+        type: "Battlefield",
+        set: "OGN",
+        artist: "",
+        color: [],
+        externalLinks: {},
+        flavorText: "",
+        foilTypes: [],
+        fullIdentifier: "",
+        keywords: [],
+        language: "en",
+        name: "",
+        rarity: "Common",
+        subtypes: [],
+        superTypes: [],
+        text: "",
+      },
+    ],
+  },
+
+  {
+    id: 0,
+    variations: [
+      {
+        images: {
+          full: "https://drive.usercontent.google.com/download?id=1Ad5KrO-x-9nKmreq_HQkmrYLx9dXHD4w",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=1Ad5KrO-x-9nKmreq_HQkmrYLx9dXHD4w",
+        },
+        number: 0,
+        type: "Battlefield",
+        set: "OGN",
+        artist: "",
+        color: [],
+        externalLinks: {},
+        flavorText: "",
+        foilTypes: [],
+        fullIdentifier: "",
+        keywords: [],
+        language: "en",
+        name: "",
+        rarity: "Common",
+        subtypes: [],
+        superTypes: [],
+        text: "",
+      },
+    ],
+  },
+
+  {
+    id: 0,
+    variations: [
+      {
+        images: {
+          full: "https://drive.usercontent.google.com/download?id=1qpVR2dH1mrLq_14rFqZfyHt83HVtJMox",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=1qpVR2dH1mrLq_14rFqZfyHt83HVtJMox",
+        },
+        number: 0,
+        type: "Battlefield",
+        set: "OGN",
+        artist: "",
+        color: [],
+        externalLinks: {},
+        flavorText: "",
+        foilTypes: [],
+        fullIdentifier: "",
+        keywords: [],
+        language: "en",
+        name: "",
+        rarity: "Common",
+        subtypes: [],
+        superTypes: [],
+        text: "",
+      },
+    ],
+  },
+
+  {
+    id: 0,
+    variations: [
+      {
+        images: {
+          full: "https://drive.usercontent.google.com/download?id=1IuyYUZ5sCTJ9yTZTl2lGpU0NCn1U69Am",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=1IuyYUZ5sCTJ9yTZTl2lGpU0NCn1U69Am",
+        },
+        number: 0,
+        type: "Battlefield",
+        set: "OGN",
+        artist: "",
+        color: [],
+        externalLinks: {},
+        flavorText: "",
+        foilTypes: [],
+        fullIdentifier: "",
+        keywords: [],
+        language: "en",
+        name: "",
+        rarity: "Common",
+        subtypes: [],
+        superTypes: [],
+        text: "",
+      },
+    ],
+  },
+
+  {
+    id: 0,
+    variations: [
+      {
+        images: {
+          full: "https://drive.usercontent.google.com/download?id=1qCc3IwaZV8S2YG2PKQ8-ulavOyJaO5f6",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=1qCc3IwaZV8S2YG2PKQ8-ulavOyJaO5f6",
+        },
+        number: 0,
+        type: "Battlefield",
+        set: "OGN",
+        artist: "",
+        color: [],
+        externalLinks: {},
+        flavorText: "",
+        foilTypes: [],
+        fullIdentifier: "",
+        keywords: [],
+        language: "en",
+        name: "",
+        rarity: "Common",
+        subtypes: [],
+        superTypes: [],
+        text: "",
+      },
+    ],
+  },
+
+  {
+    id: 0,
+    variations: [
+      {
+        images: {
+          full: "https://drive.usercontent.google.com/download?id=1ilcHPXZhUbTDWKzwEx63MEfs4do74k06",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=1ilcHPXZhUbTDWKzwEx63MEfs4do74k06",
+        },
+        number: 0,
+        type: "Battlefield",
+        set: "OGN",
+        artist: "",
+        color: [],
+        externalLinks: {},
+        flavorText: "",
+        foilTypes: [],
+        fullIdentifier: "",
+        keywords: [],
+        language: "en",
+        name: "",
+        rarity: "Common",
+        subtypes: [],
+        superTypes: [],
+        text: "",
+      },
+    ],
+  },
+
+  {
+    id: 0,
+    variations: [
+      {
+        images: {
+          full: "https://drive.usercontent.google.com/download?id=1j-j-a--YCFvnUII6KQXWfwfJcTg1gXa3",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=1j-j-a--YCFvnUII6KQXWfwfJcTg1gXa3",
+        },
+        number: 0,
+        type: "Battlefield",
+        set: "OGN",
+        artist: "",
+        color: [],
+        externalLinks: {},
+        flavorText: "",
+        foilTypes: [],
+        fullIdentifier: "",
+        keywords: [],
+        language: "en",
+        name: "",
+        rarity: "Common",
+        subtypes: [],
+        superTypes: [],
+        text: "",
+      },
+    ],
+  },
+
+  {
+    id: 0,
+    variations: [
+      {
+        images: {
+          full: "https://drive.usercontent.google.com/download?id=1GVKd9XunV7sR6VWUsItRCiJjsYVh-5uT",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=1GVKd9XunV7sR6VWUsItRCiJjsYVh-5uT",
+        },
+        number: 0,
+        type: "Battlefield",
+        set: "OGN",
+        artist: "",
+        color: [],
+        externalLinks: {},
+        flavorText: "",
+        foilTypes: [],
+        fullIdentifier: "",
+        keywords: [],
+        language: "en",
+        name: "",
+        rarity: "Common",
+        subtypes: [],
+        superTypes: [],
+        text: "",
+      },
+    ],
+  },
+
+  {
+    id: 0,
+    variations: [
+      {
+        images: {
+          full: "https://drive.usercontent.google.com/download?id=1ddzoJV0H4ZR_Jrrejua5nIpWf_sC_ZMk",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=1ddzoJV0H4ZR_Jrrejua5nIpWf_sC_ZMk",
+        },
+        number: 0,
+        type: "Battlefield",
+        set: "OGN",
+        artist: "",
+        color: [],
+        externalLinks: {},
+        flavorText: "",
+        foilTypes: [],
+        fullIdentifier: "",
+        keywords: [],
+        language: "en",
+        name: "",
+        rarity: "Common",
+        subtypes: [],
+        superTypes: [],
+        text: "",
+      },
+    ],
+  },
+
+  {
+    id: 0,
+    variations: [
+      {
+        images: {
+          full: "https://drive.usercontent.google.com/download?id=1ZbEn1SAqzkEwuDnI5BR36zXCssHwyhat",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=1ZbEn1SAqzkEwuDnI5BR36zXCssHwyhat",
+        },
+        number: 0,
+        type: "Battlefield",
+        set: "OGN",
+        artist: "",
+        color: [],
+        externalLinks: {},
+        flavorText: "",
+        foilTypes: [],
+        fullIdentifier: "",
+        keywords: [],
+        language: "en",
+        name: "",
+        rarity: "Common",
+        subtypes: [],
+        superTypes: [],
+        text: "",
+      },
+    ],
+  },
+
+  {
+    id: 0,
+    variations: [
+      {
+        images: {
+          full: "https://drive.usercontent.google.com/download?id=1iLIoO15RIihkoAgZOQe0kOpHjFLxF-U1",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=1iLIoO15RIihkoAgZOQe0kOpHjFLxF-U1",
+        },
+        number: 0,
+        type: "Battlefield",
+        set: "OGN",
+        artist: "",
+        color: [],
+        externalLinks: {},
+        flavorText: "",
+        foilTypes: [],
+        fullIdentifier: "",
+        keywords: [],
+        language: "en",
+        name: "",
+        rarity: "Common",
+        subtypes: [],
+        superTypes: [],
+        text: "",
+      },
+    ],
+  },
+
+  {
+    id: 0,
+    variations: [
+      {
+        images: {
+          full: "https://drive.usercontent.google.com/download?id=1KJpTrrhgs3HhJQvnMK83V5drsfyA0DDb",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=1KJpTrrhgs3HhJQvnMK83V5drsfyA0DDb",
+        },
+        number: 0,
+        type: "Battlefield",
+        set: "OGN",
+        artist: "",
+        color: [],
+        externalLinks: {},
+        flavorText: "",
+        foilTypes: [],
+        fullIdentifier: "",
+        keywords: [],
+        language: "en",
+        name: "",
+        rarity: "Common",
+        subtypes: [],
+        superTypes: [],
+        text: "",
+      },
+    ],
+  },
+
+  {
+    id: 0,
+    variations: [
+      {
+        images: {
+          full: "https://drive.usercontent.google.com/download?id=1Pn-1kbgjnpDyhs6YF6IKY-hb0wgp7BF4",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=1Pn-1kbgjnpDyhs6YF6IKY-hb0wgp7BF4",
+        },
+        number: 0,
+        type: "Battlefield",
+        set: "OGN",
+        artist: "",
+        color: [],
+        externalLinks: {},
+        flavorText: "",
+        foilTypes: [],
+        fullIdentifier: "",
+        keywords: [],
+        language: "en",
+        name: "",
+        rarity: "Common",
+        subtypes: [],
+        superTypes: [],
+        text: "",
+      },
+    ],
+  },
+
+  {
+    id: 0,
+    variations: [
+      {
+        images: {
+          full: "https://drive.usercontent.google.com/download?id=1IKQKhmGkdzZEaYO71xZ05doAto0gtQn6",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=1IKQKhmGkdzZEaYO71xZ05doAto0gtQn6",
+        },
+        number: 0,
+        type: "Battlefield",
+        set: "OGN",
+        artist: "",
+        color: [],
+        externalLinks: {},
+        flavorText: "",
+        foilTypes: [],
+        fullIdentifier: "",
+        keywords: [],
+        language: "en",
+        name: "",
+        rarity: "Common",
+        subtypes: [],
+        superTypes: [],
+        text: "",
+      },
+    ],
+  },
+
+  {
+    id: 0,
+    variations: [
+      {
+        images: {
+          full: "https://drive.usercontent.google.com/download?id=1ZMu1-5PC_ficqYHrh1eWFK6B0FFdjNm7",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=1ZMu1-5PC_ficqYHrh1eWFK6B0FFdjNm7",
+        },
+        number: 0,
+        type: "Battlefield",
+        set: "OGN",
+        artist: "",
+        color: [],
+        externalLinks: {},
+        flavorText: "",
+        foilTypes: [],
+        fullIdentifier: "",
+        keywords: [],
+        language: "en",
+        name: "",
+        rarity: "Common",
+        subtypes: [],
+        superTypes: [],
+        text: "",
+      },
+    ],
+  },
+
+  {
+    id: 0,
+    variations: [
+      {
+        images: {
+          full: "https://drive.usercontent.google.com/download?id=15Sc0J7XzlMd910wQi3QnGCHarYDcEbe",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=15Sc0J7XzlMd910wQi3QnGCHarYDcEbe",
         },
         number: 0,
         type: "Battlefield",

@@ -156,7 +156,7 @@ export const cards: CardData[] = [
   },
 
   {
-    id: 0,
+    id: 135,
     variations: [
       {
         images: {
@@ -164,22 +164,22 @@ export const cards: CardData[] = [
           thumbnail:
             "https://drive.google.com/thumbnail?id=1FUNWgyeeV0UPf3WAZ6Xrrm7gM0dtqC2c",
         },
-        number: 0,
-        type: "Battlefield",
-        set: "OGN",
+        number: 135,
+        type: "Rune",
+        set: "FND",
         artist: "",
-        color: [],
+        color: ["Body"],
         externalLinks: {},
         flavorText: "",
         foilTypes: [],
-        fullIdentifier: "",
+        fullIdentifier: "FND • 135/298",
         keywords: [],
         language: "en",
-        name: "",
+        name: "Body Rune",
         rarity: "Common",
         subtypes: [],
         superTypes: [],
-        text: "",
+        text: "{E}: [Add] {1}. Recycle me: [Add] {B}.\nActivate this any time.",
       },
     ],
   },

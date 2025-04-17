@@ -12,7 +12,10 @@ export const getAllCards = async (
     .map((cardData) => {
       const cardVariation = [...cardData.variations]
         .reverse() // Get the last variation first
-        .find((variation) => variation.language === language);
+        .find(
+          (variation) =>
+            variation.language === language && variation.set === options.setCode
+        );
 
       if (!cardVariation) {
         return undefined; // Skip this card if no variation is found

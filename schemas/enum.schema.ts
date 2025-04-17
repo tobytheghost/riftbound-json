@@ -29,7 +29,7 @@ export const raritySchema = z.enum([
   "Secret",
 ]);
 
-export const setCodeSchema = z.enum(["OGN"]);
+export const setCodeSchema = z.enum(["FND", "OGN"]);
 
 export const superTypeSchema = z.enum(["Signature"]);
 

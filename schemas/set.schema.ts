@@ -7,6 +7,7 @@ const setTypeSchema = z.enum(["expansion"]);
 export type SetVariation = z.infer<typeof setVariationSchema>;
 export const setVariationSchema = z.object({
   name: z.string(),
+  setCode: setCodeSchema,
   language: languageSchema,
   prereleaseDate: z.date().optional(),
   releaseDate: z.date().optional(),
@@ -16,7 +17,6 @@ export const setVariationSchema = z.object({
 export type SetData = z.infer<typeof setDataSchema>;
 export const setDataSchema = z.object({
   id: z.string().uuid(),
-  setCode: setCodeSchema,
   type: setTypeSchema,
   variations: z.array(setVariationSchema),
 });

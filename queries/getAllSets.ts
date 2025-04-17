@@ -1,7 +1,6 @@
 import { Language } from "../schemas/enum.schema";
 import { sets } from "../data/sets";
 import { Set } from "../schemas/set.schema";
-import { createDynamicCardData } from "../utils/createDynamicCardData";
 
 export const getAllSets = async (
   options: { language?: Language } = { language: "en" }
@@ -21,7 +20,6 @@ export const getAllSets = async (
       const set: Set = {
         id: setData.id,
         object: "set",
-        setCode: setData.setCode,
         type: setData.type,
         ...setVariation,
       };

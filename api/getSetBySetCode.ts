@@ -18,8 +18,8 @@ app.get("/:language/sets/:setCode", async (c) => {
   );
   if (paramError) return c.json({ error: paramError.message }, 400);
 
-  const set = await getSetBySetCode(param.setCode);
-  if (!set) return c.json({ error: "Set not found" }, 404);
+  const [set, setError] = await tryCatch(getSetBySetCode(param.setCode));
+  if (setError || !set) return c.json({ error: "Set not found" }, 404);
 
   return c.json(set, 200);
 });

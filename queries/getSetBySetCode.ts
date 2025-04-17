@@ -8,20 +8,24 @@ export const getSetBySetCode = async (
   options: { language?: Language } = { language: "en" }
 ) => {
   const { language } = options;
-  const setData = sets.find((set) => set.setCode === setCode);
+  const setData = sets.find((set) =>
+    set.variations.some((variation) => variation.setCode === setCode)
+  );
   if (!setData) {
-    throw new Error("Card not found");
+    throw new Error("Set not found");
   }
   const setVariation = [...setData.variations]
     .reverse() // Get the last variation first
-    .find((variation) => variation.language === language);
+    .find(
+      (variation) =>
+        variation.language === language && variation.setCode === setCode
+    );
   if (!setVariation) {
-    throw new Error("Card variation not found");
+    throw new Error("Set variation not found");
   }
 
   const set: SetWithCards = {
     id: setData.id,
-    setCode: setData.setCode,
     type: setData.type,
     object: "set",
     ...setVariation,

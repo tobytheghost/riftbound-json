@@ -17,6 +17,8 @@ export const cards: CardData[] = [
         fullIdentifier: "OGN • 161/298",
         images: {
           full: "https://drive.google.com/thumbnail?id=1pcMxoLkCIpxFnplS44QmzVLrMWbTz8lf&sz=w1000",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=1pcMxoLkCIpxFnplS44QmzVLrMWbTz8lf&sz=w200",
         },
         language: "en",
         might: 8,
@@ -45,6 +47,8 @@ export const cards: CardData[] = [
         fullIdentifier: "OGN • 251/298",
         images: {
           full: "https://drive.google.com/thumbnail?id=1rZsQUivzx-jqutCwf0dCmO_HLeRtk_Sv&sz=w1000",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=1rZsQUivzx-jqutCwf0dCmO_HLeRtk_Sv&sz=w200",
         },
         keywords: [],
         language: "en",
@@ -74,6 +78,8 @@ export const cards: CardData[] = [
         fullIdentifier: "OGN • 252/298",
         images: {
           full: "https://drive.google.com/thumbnail?id=1pDKK_Xns7AM5xLSFZOYbP_IxwHKd4Hta&sz=w1000",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=1pDKK_Xns7AM5xLSFZOYbP_IxwHKd4Hta&sz=w200",
         },
         keywords: [],
         language: "en",
@@ -101,6 +107,8 @@ export const cards: CardData[] = [
         fullIdentifier: "OGN • 265/298",
         images: {
           full: "https://drive.google.com/thumbnail?id=125ETiJrekeRelRdBpT_gye1-C90vkufM&sz=w1000",
+          thumbnail:
+            "https://drive.google.com/thumbnail?id=125ETiJrekeRelRdBpT_gye1-C90vkufM&sz=w200",
         },
         keywords: [],
         language: "en",

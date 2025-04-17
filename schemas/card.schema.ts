@@ -22,6 +22,7 @@ export const cardVariationSchema = z.object({
   fullIdentifier: z.string(),
   images: z.object({
     full: z.string(),
+    thumbnail: z.string(),
   }),
   keywords: z.array(z.string()),
   language: languageSchema,

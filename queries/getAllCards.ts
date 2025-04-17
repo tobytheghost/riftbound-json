@@ -14,7 +14,8 @@ export const getAllCards = async (
         .reverse() // Get the last variation first
         .find(
           (variation) =>
-            variation.language === language && variation.set === options.setCode
+            variation.language === language &&
+            (options.setCode ? variation.set === options.setCode : true)
         );
 
       if (!cardVariation) {

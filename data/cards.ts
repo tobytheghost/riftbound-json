@@ -85,6 +85,7 @@ export const cards: CardData[] = [
         language: "en",
         name: "Super Mega Death Rocket!",
         number: 252,
+        power: 1,
         rarity: "Epic",
         set: "OGN",
         subtypes: [],

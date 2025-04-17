@@ -130,35 +130,6 @@ export const cards: CardData[] = [
     variations: [
       {
         images: {
-          full: "https://drive.usercontent.google.com/download?id=1WOHqp2AcfRc9DfNm9jPeoDU2iEaGsSpc",
-          thumbnail:
-            "https://drive.google.com/thumbnail?id=1WOHqp2AcfRc9DfNm9jPeoDU2iEaGsSpc",
-        },
-        number: 0,
-        type: "Battlefield",
-        set: "OGN",
-        artist: "",
-        color: [],
-        externalLinks: {},
-        flavorText: "",
-        foilTypes: [],
-        fullIdentifier: "",
-        keywords: [],
-        language: "en",
-        name: "",
-        rarity: "Common",
-        subtypes: [],
-        superTypes: [],
-        text: "",
-      },
-    ],
-  },
-
-  {
-    id: 0,
-    variations: [
-      {
-        images: {
           full: "https://drive.usercontent.google.com/download?id=1_942H51FepCM-usVM8BuImSKt1a2p46g",
           thumbnail:
             "https://drive.google.com/thumbnail?id=1_942H51FepCM-usVM8BuImSKt1a2p46g",
@@ -1348,35 +1319,6 @@ export const cards: CardData[] = [
     variations: [
       {
         images: {
-          full: "https://drive.usercontent.google.com/download?id=1C0w4JXtoIvsrTjYcx0JNm1dSNsTgfEcg",
-          thumbnail:
-            "https://drive.google.com/thumbnail?id=1C0w4JXtoIvsrTjYcx0JNm1dSNsTgfEcg",
-        },
-        number: 0,
-        type: "Battlefield",
-        set: "OGN",
-        artist: "",
-        color: [],
-        externalLinks: {},
-        flavorText: "",
-        foilTypes: [],
-        fullIdentifier: "",
-        keywords: [],
-        language: "en",
-        name: "",
-        rarity: "Common",
-        subtypes: [],
-        superTypes: [],
-        text: "",
-      },
-    ],
-  },
-
-  {
-    id: 0,
-    variations: [
-      {
-        images: {
           full: "https://drive.usercontent.google.com/download?id=1w3VrVt04Cs3uYGeZDJ-uYjnYs8tQLehd",
           thumbnail:
             "https://drive.google.com/thumbnail?id=1w3VrVt04Cs3uYGeZDJ-uYjnYs8tQLehd",
@@ -1409,35 +1351,6 @@ export const cards: CardData[] = [
           full: "https://drive.usercontent.google.com/download?id=16Wv-ouH2E2I_dE6PCW4F6D1Fo2PBfcLw",
           thumbnail:
             "https://drive.google.com/thumbnail?id=16Wv-ouH2E2I_dE6PCW4F6D1Fo2PBfcLw",
-        },
-        number: 0,
-        type: "Battlefield",
-        set: "OGN",
-        artist: "",
-        color: [],
-        externalLinks: {},
-        flavorText: "",
-        foilTypes: [],
-        fullIdentifier: "",
-        keywords: [],
-        language: "en",
-        name: "",
-        rarity: "Common",
-        subtypes: [],
-        superTypes: [],
-        text: "",
-      },
-    ],
-  },
-
-  {
-    id: 0,
-    variations: [
-      {
-        images: {
-          full: "https://drive.usercontent.google.com/download?id=1XjyT49HZtrRPaoZcgHObqMTMoDrm-7I2",
-          thumbnail:
-            "https://drive.google.com/thumbnail?id=1XjyT49HZtrRPaoZcgHObqMTMoDrm-7I2",
         },
         number: 0,
         type: "Battlefield",
@@ -1754,35 +1667,6 @@ export const cards: CardData[] = [
     variations: [
       {
         images: {
-          full: "https://drive.usercontent.google.com/download?id=1-EFC3jhYHkh4F7xfoA1ysL2xlfbgf1Dy",
-          thumbnail:
-            "https://drive.google.com/thumbnail?id=1-EFC3jhYHkh4F7xfoA1ysL2xlfbgf1Dy",
-        },
-        number: 0,
-        type: "Battlefield",
-        set: "OGN",
-        artist: "",
-        color: [],
-        externalLinks: {},
-        flavorText: "",
-        foilTypes: [],
-        fullIdentifier: "",
-        keywords: [],
-        language: "en",
-        name: "",
-        rarity: "Common",
-        subtypes: [],
-        superTypes: [],
-        text: "",
-      },
-    ],
-  },
-
-  {
-    id: 0,
-    variations: [
-      {
-        images: {
           full: "https://drive.usercontent.google.com/download?id=1zEsCswACq_BA46FWs4xTsIBSEtkgsCqn",
           thumbnail:
             "https://drive.google.com/thumbnail?id=1zEsCswACq_BA46FWs4xTsIBSEtkgsCqn",
@@ -1957,35 +1841,6 @@ export const cards: CardData[] = [
     variations: [
       {
         images: {
-          full: "https://drive.usercontent.google.com/download?id=1sN6GB0I6iNXkyxIIdHeTCceAPsuOQO4J",
-          thumbnail:
-            "https://drive.google.com/thumbnail?id=1sN6GB0I6iNXkyxIIdHeTCceAPsuOQO4J",
-        },
-        number: 0,
-        type: "Battlefield",
-        set: "OGN",
-        artist: "",
-        color: [],
-        externalLinks: {},
-        flavorText: "",
-        foilTypes: [],
-        fullIdentifier: "",
-        keywords: [],
-        language: "en",
-        name: "",
-        rarity: "Common",
-        subtypes: [],
-        superTypes: [],
-        text: "",
-      },
-    ],
-  },
-
-  {
-    id: 0,
-    variations: [
-      {
-        images: {
           full: "https://drive.usercontent.google.com/download?id=15MXmW7ME0YYD4O7vyuXG3TmR6xm15KY6",
           thumbnail:
             "https://drive.google.com/thumbnail?id=15MXmW7ME0YYD4O7vyuXG3TmR6xm15KY6",
@@ -2015,67 +1870,9 @@ export const cards: CardData[] = [
     variations: [
       {
         images: {
-          full: "https://drive.usercontent.google.com/download?id=14YLX-zOnk832lkYtodcPEY21xPI4rdSj",
-          thumbnail:
-            "https://drive.google.com/thumbnail?id=14YLX-zOnk832lkYtodcPEY21xPI4rdSj",
-        },
-        number: 0,
-        type: "Battlefield",
-        set: "OGN",
-        artist: "",
-        color: [],
-        externalLinks: {},
-        flavorText: "",
-        foilTypes: [],
-        fullIdentifier: "",
-        keywords: [],
-        language: "en",
-        name: "",
-        rarity: "Common",
-        subtypes: [],
-        superTypes: [],
-        text: "",
-      },
-    ],
-  },
-
-  {
-    id: 0,
-    variations: [
-      {
-        images: {
           full: "https://drive.usercontent.google.com/download?id=1wlx71_cDFKsEHRBcpdrL7r3CnDNyC4xf",
           thumbnail:
             "https://drive.google.com/thumbnail?id=1wlx71_cDFKsEHRBcpdrL7r3CnDNyC4xf",
-        },
-        number: 0,
-        type: "Battlefield",
-        set: "OGN",
-        artist: "",
-        color: [],
-        externalLinks: {},
-        flavorText: "",
-        foilTypes: [],
-        fullIdentifier: "",
-        keywords: [],
-        language: "en",
-        name: "",
-        rarity: "Common",
-        subtypes: [],
-        superTypes: [],
-        text: "",
-      },
-    ],
-  },
-
-  {
-    id: 0,
-    variations: [
-      {
-        images: {
-          full: "https://drive.usercontent.google.com/download?id=1VQz-LD6WFFRL24IbfdLhlLlCYvgYiDlb",
-          thumbnail:
-            "https://drive.google.com/thumbnail?id=1VQz-LD6WFFRL24IbfdLhlLlCYvgYiDlb",
         },
         number: 0,
         type: "Battlefield",
@@ -2276,35 +2073,6 @@ export const cards: CardData[] = [
     variations: [
       {
         images: {
-          full: "https://drive.usercontent.google.com/download?id=1qCc3IwaZV8S2YG2PKQ8-ulavOyJaO5f6",
-          thumbnail:
-            "https://drive.google.com/thumbnail?id=1qCc3IwaZV8S2YG2PKQ8-ulavOyJaO5f6",
-        },
-        number: 0,
-        type: "Battlefield",
-        set: "OGN",
-        artist: "",
-        color: [],
-        externalLinks: {},
-        flavorText: "",
-        foilTypes: [],
-        fullIdentifier: "",
-        keywords: [],
-        language: "en",
-        name: "",
-        rarity: "Common",
-        subtypes: [],
-        superTypes: [],
-        text: "",
-      },
-    ],
-  },
-
-  {
-    id: 0,
-    variations: [
-      {
-        images: {
           full: "https://drive.usercontent.google.com/download?id=1ilcHPXZhUbTDWKzwEx63MEfs4do74k06",
           thumbnail:
             "https://drive.google.com/thumbnail?id=1ilcHPXZhUbTDWKzwEx63MEfs4do74k06",
@@ -2453,35 +2221,6 @@ export const cards: CardData[] = [
           full: "https://drive.usercontent.google.com/download?id=1iLIoO15RIihkoAgZOQe0kOpHjFLxF-U1",
           thumbnail:
             "https://drive.google.com/thumbnail?id=1iLIoO15RIihkoAgZOQe0kOpHjFLxF-U1",
-        },
-        number: 0,
-        type: "Battlefield",
-        set: "OGN",
-        artist: "",
-        color: [],
-        externalLinks: {},
-        flavorText: "",
-        foilTypes: [],
-        fullIdentifier: "",
-        keywords: [],
-        language: "en",
-        name: "",
-        rarity: "Common",
-        subtypes: [],
-        superTypes: [],
-        text: "",
-      },
-    ],
-  },
-
-  {
-    id: 0,
-    variations: [
-      {
-        images: {
-          full: "https://drive.usercontent.google.com/download?id=1KJpTrrhgs3HhJQvnMK83V5drsfyA0DDb",
-          thumbnail:
-            "https://drive.google.com/thumbnail?id=1KJpTrrhgs3HhJQvnMK83V5drsfyA0DDb",
         },
         number: 0,
         type: "Battlefield",

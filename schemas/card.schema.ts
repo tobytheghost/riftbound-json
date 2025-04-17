@@ -10,17 +10,16 @@ import {
   languageSchema,
 } from "./enum.schema";
 
-export type Card = z.infer<typeof cardSchema>;
-
-export const cardSchema = z.object({
+export type CardVariation = z.infer<typeof cardVariationSchema>;
+export const cardVariationSchema = z.object({
   artist: z.string(),
   color: z.array(colorSchema),
   cost: z.number().int().min(0).optional(),
+  championType: z.string().optional(),
   externalLinks: z.object({}),
   flavorText: z.string(),
   foilTypes: z.array(foilTypeSchema),
   fullIdentifier: z.string(),
-  id: z.number(),
   images: z.object({}),
   keywords: z.array(z.string()),
   language: languageSchema,
@@ -34,5 +33,20 @@ export const cardSchema = z.object({
   superTypes: z.array(superTypeSchema),
   text: z.string(),
   type: typeSchema,
-  typeLine: z.string(),
 });
+
+export type CardData = z.infer<typeof cardDataSchema>;
+export const cardDataSchema = z.object({
+  id: z.coerce.number().int().min(0),
+  variations: z.array(cardVariationSchema),
+});
+
+export type Card = z.infer<typeof cardSchema>;
+export const cardSchema = cardDataSchema
+  .omit({ variations: true })
+  .merge(cardVariationSchema)
+  .extend({
+    object: z.literal("card"),
+    fullName: z.string(),
+    typeLine: z.string(),
+  });

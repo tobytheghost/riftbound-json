@@ -1,5 +1,6 @@
 import { set, z } from "zod";
 import { languageSchema, setCodeSchema } from "./enum.schema";
+import { cardSchema } from "./card.schema";
 
 const setTypeSchema = z.enum(["expansion"]);
 
@@ -27,3 +28,8 @@ export const setSchema = setDataSchema
   .extend({
     object: z.literal("set"),
   });
+
+export type SetWithCards = z.infer<typeof setWithCardsSchema>;
+export const setWithCardsSchema = setSchema.extend({
+  cards: z.array(cardSchema),
+});

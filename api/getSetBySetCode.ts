@@ -1,41 +1,27 @@
-// import { Hono } from "hono";
-// import { z } from "zod";
+import { Hono } from "hono";
+import { z } from "zod";
 
-// import { data } from "../data/cards";
-// import { languageSchema, setCodeSchema } from "../schemas/enum.schema";
-// import { tryCatch } from "../utils/tryCatch";
+import { languageSchema, setCodeSchema } from "../schemas/enum.schema";
+import { tryCatch } from "../utils/tryCatch";
+import { getSetBySetCode } from "../queries/getSetBySetCode";
 
-// const app = new Hono();
+const app = new Hono();
 
-// const paramSchema = z.object({
-//   language: languageSchema,
-//   setCode: setCodeSchema,
-// });
+const paramSchema = z.object({
+  language: languageSchema,
+  setCode: setCodeSchema,
+});
 
-// app.get("/:language/sets/:setCode", async (c) => {
-//   const [param, paramError] = await tryCatch(
-//     paramSchema.parseAsync(c.req.param())
-//   );
-//   if (paramError) return c.json({ error: paramError.message }, 400);
+app.get("/:language/sets/:setCode", async (c) => {
+  const [param, paramError] = await tryCatch(
+    paramSchema.parseAsync(c.req.param())
+  );
+  if (paramError) return c.json({ error: paramError.message }, 400);
 
-//   const set = data[param.language].sets.find(
-//     (set) => set.setCode === param.setCode
-//   );
-//   if (!set) return c.json({ error: "Set not found" }, 404);
+  const set = await getSetBySetCode(param.setCode);
+  if (!set) return c.json({ error: "Set not found" }, 404);
 
-//   const hasAllCards = data[param.language].cards.length === set.totalCards;
-//   const cards = data[param.language].cards.filter(
-//     (card) => card.set === param.setCode
-//   );
-//   return c.json(
-//     {
-//       object: "set",
-//       ...set,
-//       hasAllCards,
-//       cards,
-//     },
-//     200
-//   );
-// });
+  return c.json(set, 200);
+});
 
-// export default app;
+export default app;

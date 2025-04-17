@@ -4,7 +4,7 @@ import { Card } from "../schemas/card.schema";
 import { createDynamicCardData } from "../utils/createDynamicCardData";
 
 export const getAllCards = async (
-  options: { language?: Language } = { language: "en" }
+  options: { language?: Language; setCode?: string } = { language: "en" }
 ) => {
   const { language } = options;
 
@@ -26,6 +26,12 @@ export const getAllCards = async (
       };
 
       return card;
+    })
+    .filter((card) => {
+      if (options.setCode) {
+        return card?.set === options.setCode;
+      }
+      return true; // Include all cards if no setCode is provided
     })
     .filter(Boolean);
 };

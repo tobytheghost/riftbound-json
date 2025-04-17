@@ -20,7 +20,9 @@ export const cardVariationSchema = z.object({
   flavorText: z.string(),
   foilTypes: z.array(foilTypeSchema),
   fullIdentifier: z.string(),
-  images: z.object({}),
+  images: z.object({
+    full: z.string(),
+  }),
   keywords: z.array(z.string()),
   language: languageSchema,
   might: z.number().int().min(0).optional(),

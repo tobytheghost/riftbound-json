@@ -16,9 +16,9 @@ export const cards: CardData[] = [
         foilTypes: ["None"],
         fullIdentifier: "OGN • 161/298",
         images: {
-          full: "https://drive.google.com/thumbnail?id=1pcMxoLkCIpxFnplS44QmzVLrMWbTz8lf&sz=w1000",
+          full: "https://drive.usercontent.google.com/download?id=1pcMxoLkCIpxFnplS44QmzVLrMWbTz8lf",
           thumbnail:
-            "https://drive.google.com/thumbnail?id=1pcMxoLkCIpxFnplS44QmzVLrMWbTz8lf&sz=w200",
+            "https://drive.google.com/thumbnail?id=1pcMxoLkCIpxFnplS44QmzVLrMWbTz8lf",
         },
         language: "en",
         might: 8,
@@ -46,9 +46,9 @@ export const cards: CardData[] = [
         foilTypes: ["None"],
         fullIdentifier: "OGN • 251/298",
         images: {
-          full: "https://drive.google.com/thumbnail?id=1rZsQUivzx-jqutCwf0dCmO_HLeRtk_Sv&sz=w1000",
+          full: "https://drive.usercontent.google.com/download?id=1rZsQUivzx-jqutCwf0dCmO_HLeRtk_Sv",
           thumbnail:
-            "https://drive.google.com/thumbnail?id=1rZsQUivzx-jqutCwf0dCmO_HLeRtk_Sv&sz=w200",
+            "https://drive.google.com/thumbnail?id=1rZsQUivzx-jqutCwf0dCmO_HLeRtk_Sv",
         },
         keywords: [],
         language: "en",
@@ -77,9 +77,9 @@ export const cards: CardData[] = [
         foilTypes: ["None"],
         fullIdentifier: "OGN • 252/298",
         images: {
-          full: "https://drive.google.com/thumbnail?id=1pDKK_Xns7AM5xLSFZOYbP_IxwHKd4Hta&sz=w1000",
+          full: "https://drive.usercontent.google.com/download?id=1pDKK_Xns7AM5xLSFZOYbP_IxwHKd4Hta",
           thumbnail:
-            "https://drive.google.com/thumbnail?id=1pDKK_Xns7AM5xLSFZOYbP_IxwHKd4Hta&sz=w200",
+            "https://drive.google.com/thumbnail?id=1pDKK_Xns7AM5xLSFZOYbP_IxwHKd4Hta",
         },
         keywords: [],
         language: "en",
@@ -101,14 +101,15 @@ export const cards: CardData[] = [
       {
         artist: "Fortiche Production",
         color: ["Mind", "Order"],
+        championType: "Viktor",
         externalLinks: {},
         flavorText: "",
         foilTypes: ["None"],
         fullIdentifier: "OGN • 265/298",
         images: {
-          full: "https://drive.google.com/thumbnail?id=125ETiJrekeRelRdBpT_gye1-C90vkufM&sz=w1000",
+          full: "https://drive.usercontent.google.com/download?id=125ETiJrekeRelRdBpT_gye1-C90vkufM",
           thumbnail:
-            "https://drive.google.com/thumbnail?id=125ETiJrekeRelRdBpT_gye1-C90vkufM&sz=w200",
+            "https://drive.google.com/thumbnail?id=125ETiJrekeRelRdBpT_gye1-C90vkufM",
         },
         keywords: [],
         language: "en",
@@ -116,7 +117,7 @@ export const cards: CardData[] = [
         number: 265,
         rarity: "Rare",
         set: "OGN",
-        subtypes: ["Viktor"],
+        subtypes: [],
         superTypes: [],
         text: "{1}, {E}: Play a 1{M} Recruit unit token.",
         type: "Legend",

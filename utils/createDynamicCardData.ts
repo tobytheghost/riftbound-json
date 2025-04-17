@@ -21,7 +21,7 @@ export const createDynamicCardData = (
     case "Unit":
       return {
         fullName: cardVariation.name,
-        typeLine: `${cardVariation.superTypes.length ? `${cardVariation.superTypes.join(" ")} ` : ""}${cardVariation.type}`,
+        typeLine: `${cardVariation.superTypes.length ? `${cardVariation.superTypes.join(" ")} ` : ""}${cardVariation.type}${cardVariation.championType ? ` • ${cardVariation.championType}` : ""}`,
       };
     default:
       return exhaustiveSwitchGuard(cardVariation.type);

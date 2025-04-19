@@ -11,10 +11,6 @@ export const createDynamicCardData = (
         typeLine: `${cardVariation.superTypes.length ? `${cardVariation.superTypes.join(" ")} ` : ""}${cardVariation.type} • ${cardVariation.championType}`,
       };
     case "Champion":
-      return {
-        fullName: `${cardVariation.championType}, ${cardVariation.name}`,
-        typeLine: `${cardVariation.superTypes.length ? `${cardVariation.superTypes.join(" ")} ` : ""}${cardVariation.type} • ${cardVariation.championType}`,
-      };
     case "Battlefield":
     case "Rune":
     case "Spell":

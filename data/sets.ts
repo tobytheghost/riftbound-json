@@ -6,7 +6,7 @@ export const sets: SetData[] = [
     type: "expansion",
     variations: [
       {
-        name: "Origins - Beta Cards",
+        name: "Origins (Beta Cards)",
         setCode: "FND",
         language: "en",
         prereleaseDate: undefined,

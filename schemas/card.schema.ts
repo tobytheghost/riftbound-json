@@ -39,7 +39,6 @@ export const cardVariationSchema = z.object({
 
 export type CardData = z.infer<typeof cardDataSchema>;
 export const cardDataSchema = z.object({
-  id: z.coerce.number().int().min(0),
   variations: z.array(cardVariationSchema),
 });
 
@@ -48,6 +47,7 @@ export const cardSchema = cardDataSchema
   .omit({ variations: true })
   .merge(cardVariationSchema)
   .extend({
+    id: z.coerce.number().int().min(0),
     object: z.literal("card"),
     fullName: z.string(),
     typeLine: z.string(),

@@ -1,13 +1,11 @@
 import { set, z } from "zod";
-import { languageSchema, setCodeSchema } from "./enum.schema";
-import { cardSchema } from "./card.schema";
+import { languageSchema } from "./enum.schema";
 
 const setTypeSchema = z.enum(["expansion"]);
 
 export type SetVariation = z.infer<typeof setVariationSchema>;
 export const setVariationSchema = z.object({
   name: z.string(),
-  setCode: setCodeSchema,
   language: languageSchema,
   prereleaseDate: z.date().optional(),
   releaseDate: z.date().optional(),
@@ -16,7 +14,8 @@ export const setVariationSchema = z.object({
 
 export type SetData = z.infer<typeof setDataSchema>;
 export const setDataSchema = z.object({
-  id: z.string().uuid(),
+  id: z.string(),
+  setCode: z.string(),
   type: setTypeSchema,
   variations: z.array(setVariationSchema),
 });
@@ -28,8 +27,3 @@ export const setSchema = setDataSchema
   .extend({
     object: z.literal("set"),
   });
-
-export type SetWithCards = z.infer<typeof setWithCardsSchema>;
-export const setWithCardsSchema = setSchema.extend({
-  cards: z.array(cardSchema),
-});

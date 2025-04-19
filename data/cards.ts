@@ -235,7 +235,7 @@ export const cards: CardData[] = [
         fullIdentifier: "FND • 003/298",
         keywords: [],
         language: "en",
-        name: "Caitlyn - Sharpshooter",
+        name: "Caitlyn (Sharpshooter)",
         rarity: "Common",
         subtypes: ["Piltover"],
         superTypes: [],

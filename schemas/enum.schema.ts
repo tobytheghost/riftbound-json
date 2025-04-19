@@ -4,40 +4,37 @@ export type Color = z.infer<typeof colorSchema>;
 export type FoilType = z.infer<typeof foilTypeSchema>;
 export type Language = z.infer<typeof languageSchema>;
 export type Rarity = z.infer<typeof raritySchema>;
-export type SetCode = z.infer<typeof setCodeSchema>;
 export type SuperType = z.infer<typeof superTypeSchema>;
 export type Type = z.infer<typeof typeSchema>;
 
-export const colorSchema = z.enum([
+export const color = [
   "Body",
   "Calm",
   "Chaos",
   "Fury",
   "Mind",
   "Order",
-]);
+] as const;
+export const colorSchema = z.enum(color);
 
-export const foilTypeSchema = z.enum(["None", "Foil"]);
+export const foilType = ["None", "Foil"] as const;
+export const foilTypeSchema = z.enum(foilType);
 
-export const languageSchema = z.enum(["en"]);
+export const language = ["en"] as const;
+export const languageSchema = z.enum(language);
 
-export const raritySchema = z.enum([
-  "Common",
-  "Uncommon",
-  "Rare",
-  "Epic",
-  "Secret",
-]);
+export const rarity = ["Common", "Uncommon", "Rare", "Epic", "Secret"] as const;
+export const raritySchema = z.enum(rarity);
 
-export const setCodeSchema = z.enum(["FND", "OGN"]);
+export const superType = ["Champion", "Hero", "Signature"] as const;
+export const superTypeSchema = z.enum(superType);
 
-export const superTypeSchema = z.enum(["Signature"]);
-
-export const typeSchema = z.enum([
+export const type = [
   "Battlefield",
   "Champion",
   "Legend",
   "Rune",
   "Spell",
   "Unit",
-]);
+] as const;
+export const typeSchema = z.enum(type);

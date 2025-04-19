@@ -1,8 +1,7 @@
 import { SetData } from "../schemas/set.schema";
 
-export const sets: SetData[] = [
-  {
-    id: "OGN",
+export const setsData: Record<string, SetData> = {
+  OGN: {
     type: "expansion",
     variations: [
       {
@@ -23,4 +22,4 @@ export const sets: SetData[] = [
       },
     ],
   },
-];
+};

@@ -15,7 +15,6 @@ export const setVariationSchema = z.object({
 
 export type SetData = z.infer<typeof setDataSchema>;
 export const setDataSchema = z.object({
-  id: z.string(),
   type: setTypeSchema,
   variations: z.array(setVariationSchema),
 });
@@ -25,5 +24,6 @@ export const setSchema = setDataSchema
   .omit({ variations: true })
   .merge(setVariationSchema)
   .extend({
+    id: z.string(),
     object: z.literal("set"),
   });

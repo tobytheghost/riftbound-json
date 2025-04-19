@@ -47,7 +47,7 @@ export const cardSchema = cardDataSchema
   .omit({ variations: true })
   .merge(cardVariationSchema)
   .extend({
-    id: z.coerce.number().int().min(0),
+    id: z.string(),
     object: z.literal("card"),
     fullName: z.string(),
     typeLine: z.string(),

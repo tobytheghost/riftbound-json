@@ -7,6 +7,7 @@ export type SetVariation = z.infer<typeof setVariationSchema>;
 export const setVariationSchema = z.object({
   name: z.string(),
   language: languageSchema,
+  setCode: z.string(),
   prereleaseDate: z.date().optional(),
   releaseDate: z.date().optional(),
   totalCards: z.number().int().min(0),
@@ -15,7 +16,6 @@ export const setVariationSchema = z.object({
 export type SetData = z.infer<typeof setDataSchema>;
 export const setDataSchema = z.object({
   id: z.string(),
-  setCode: z.string(),
   type: setTypeSchema,
   variations: z.array(setVariationSchema),
 });
